@@ -1,7 +1,7 @@
 // module x is very simple
 
-function run() {
+function x() {
   console.log("This is x");
 }
 
-export { run };
+export { x };
