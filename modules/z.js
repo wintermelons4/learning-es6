@@ -10,6 +10,9 @@ function z() {
   console.log("This is z");
   console.log("Life is", life);
   whatIfTheyFindMe();
+
+  // side effects
+  life = life * 2;
 }
 
 export { z };

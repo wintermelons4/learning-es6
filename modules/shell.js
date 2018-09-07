@@ -30,4 +30,5 @@ importModules(modulePaths)
   .then(() => commands.y1())
   .then(async () => await commands.y2()) // This is not necessary
   .then(() => commands.y3())
+  .then(() => commands.z())
   .then(() => commands.z());
